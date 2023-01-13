@@ -5,7 +5,7 @@ CREATE TABLE DimCurrency(
 );
 
 CREATE TABLE DimCustomer(
-	CustomerKey int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	CustomerKey int  IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	GeographyKey int NULL,
 	CustomerAlternateKey nvarchar(15) NOT NULL,
 	Title nvarchar(8) NULL,
